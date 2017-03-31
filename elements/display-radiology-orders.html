@@ -1,0 +1,35 @@
+<head>
+  <title>Radiology Orders</title>
+  <link rel="import" href="../bower_components/polymer/polymer.html">
+  <link rel="stylesheet" href="../bower_components/datatables.net-dt/css/jquery.dataTables.min.css">
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+  <script src="../js/orders.js"></script>
+</head>
+
+<dom-module id="display-radiology-orders">
+
+  <template>
+    <table id="ordersTable">
+      <thead>
+        <tr>
+          <th>Accession No.</th>
+          <th>Patient</th>
+          <th>Urgency</th>
+          <th>Imaging Procedure</th>
+          <th>Referring Physician</th>
+          <th>Scheduled Date</th>
+          <th>Date Activated</th>
+          <th>Date Stopped</th>
+        </tr>
+      </thead>
+    </table>
+  </template>
+
+</dom-module>
+
+<script>
+  Polymer({
+    is: "display-radiology-orders",
+  });
+</script>

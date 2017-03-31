@@ -1,0 +1,23 @@
+{
+  "name": "orders",
+  "authors": [
+    "Ivange Larry <ivangelarry@gmail.com>"
+  ],
+  "description": "Display Radiology Orders",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "datatables.net": "^2.1.1",
+    "datatables.net-dt": "^3.2.2",
+    "polymer": "Polymer/polymer#^1.8.1"
+  }
+}

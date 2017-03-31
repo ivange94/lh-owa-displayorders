@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "name": "Radiology Orders",
+  "description": "LibreHealth OWA for displaying radiology orders",
+  "launch_path": "index.html",
+  "icons": {
+    "48": "/img/lh-logo.png"
+  },
+  "developer": {
+    "name": "Ivange Larry",
+    "url": "https://github.com/ivange94/librehealth-owa-orders"
+  },
+  "default_locale": "en",
+    "activities": {
+      "openmrs": {
+        "href": "*"
+      }
+    }
+}
