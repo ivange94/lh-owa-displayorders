@@ -31,7 +31,9 @@ NOTE: Make sure your toolkit installation has the radiology module installed. Th
 
 4. Upload to your toolkit server and navigate to
 
-` http://localhost:8080/lh-toolkit/owa/orders/index.html `
+` http://localhost:8080/lh-toolkit/owa/lh-owa-displayorders/index.html `
+
+Note: the link depends on the name of your zip package. Here I tell you to navigate to http://localhost:8080/lh-toolkit/owa/lh-owa-displayorders/index.html but on my screenshot you'll see http://localhost:8080/lh-toolkit/owa/orders/index.html this is because when testing this app locally, I named my zip file orders.zip
 
 You should see something like
 
